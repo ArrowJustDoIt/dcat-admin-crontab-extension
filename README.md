@@ -1,20 +1,13 @@
 Crontab extension for dcat-admin
 ======
 
-[Crontab](https://github.com/ArrowJustDoIt/Crontab)是一个laravel-admin后台的定时任务扩展插件,你可以通过此插件定时执行shell、sql以及访问指定链接
+[Crontab](https://github.com/ArrowJustDoIt/dcat-admin-crontab-extension)是一个dcat-admin后台的定时任务扩展插件,你可以通过此插件定时执行shell、sql以及访问指定链接
 
-## 截图
-![crontab列表](https://raw.githubusercontent.com/ArrowJustDoIt/crontab/master/crontab_list.png)
-
-![crontab创建](https://raw.githubusercontent.com/ArrowJustDoIt/crontab/master/crontab_create.png)
-
-![crontablog列表](https://raw.githubusercontent.com/ArrowJustDoIt/crontab/master/crontab_log_list.png)
-
-![crontablog详情](https://raw.githubusercontent.com/ArrowJustDoIt/crontab/master/crontab_log_detail.png)
+[laravel-admin版本](https://github.com/ArrowJustDoIt/Crontab)
 ## 安装
 
 ```bash
-composer require arrowjustdoit/crontab
+composer require arrowjustdoit/dcat-admin-crontab-extension
 php artisan migrate
 ```
 
@@ -44,8 +37,8 @@ crontab -e //回车
 ## 访问
 
 ```
-https://your domain/admin/crontabs #定时任务列表
-https://your domain/admin/crontabLogs #定时任务日志列表
+https://your domain/admin/crontab #定时任务列表
+https://your domain/admin/crontabLog #定时任务日志列表
 ```
 
 

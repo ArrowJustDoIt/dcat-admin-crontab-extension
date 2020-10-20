@@ -1,9 +1,9 @@
 {
-    "name": "dcat-admin-extensions/Crontab",
+    "name": "arrowjustdoit/dcat-admin-crontab-extension",
     "description": "crontab extension for dcat-admin",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/ArrowJustDoIt/crontab-dcat-admin",
+    "homepage": "https://github.com/ArrowJustDoIt/dcat-admin-crontab-extension",
     "license": "MIT",
     "authors": [
         {
