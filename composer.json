@@ -1,0 +1,26 @@
+{
+    "name": "dcat-admin-extensions/Crontab",
+    "description": "crontab extension for dcat-admin",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/ArrowJustDoIt/crontab-dcat-admin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArrowJustDoIt",
+            "email": "arrowylq@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Crontab\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
